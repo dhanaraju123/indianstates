@@ -1,0 +1,20 @@
+<mvc:View xmlns:core="sap.ui.core" controllerName="IndianStates.ComboBox.indianstates.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+        <VBox id="vBox" justifyContent="Center" >
+        <Title text="Select Your State :"></Title>
+        <ComboBox id="ip" selectionChange="dispay">
+        <items>
+        <core:ListItem text="Andhra Pradesh" />
+        <core:ListItem text="Telangana" />
+        <core:ListItem text="Kerela"></core:ListItem>
+        <core:ListItem text="Tamil Nadu"/>
+        <core:ListItem text="Karnataka"/>
+        </items></ComboBox>
+        <Title id="op"></Title>
+        </VBox>
+        </content>
+    </Page>
+</mvc:View>
